@@ -2,6 +2,16 @@
 
 Programa em Python que preenche a planilha de processos com o **número do PER/DCOMP**, buscando-o no documento da pasta de cada processo e conferindo o CNPJ. Usa **regra primeiro, IA só quando o texto está sujo e conferência sempre**; o que gera dúvida vai para revisão humana, com o motivo.
 
+Foi o meu primeiro projeto como estagiária e o meu primeiro contato com limpeza, extração e conferência de dados.
+
+Com o tempo, várias pessoas passaram pela área e cada uma salvava o PER/DCOMP dos processos de um jeito. O resultado era uma pasta com milhares de arquivos espalhados, sem nenhum padrão de nome, onde achar o documento de um processo era uma caça ao tesouro.
+
+Criei uma automação que localizava o documento e extraía o número. Levei dois meses e meio para colocá-la em funcionamento, e o maior desafio foram os arquivos que o robô não conseguia ler.
+
+**Resultado: dos 438 processos, 415 foram resolvidos automaticamente e 23 (cerca de 5%) precisei validar à mão. Economizei cerca de duas semanas de busca manual.**
+
+Este repositório reproduz a ideia com dados 100% fictícios, e acrescenta IA para os casos em que só a regra não basta.
+
 > Projeto de portfólio com **dados 100% fictícios**. Reproduz, de forma limpa e segura, uma rotina de compliance fiscal que automatizei na prática.
 
 ![Planilha de saída com status e observação](exemplo_saida.png)
