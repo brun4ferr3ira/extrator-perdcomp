@@ -136,3 +136,13 @@ extrator-perdcomp/
 ## Como usei IA neste projeto
 
 Eu defini o problema, o fluxo e as regras de conferência, vindos da rotina que automatizei na prática. O código foi escrito com apoio de IA (Claude) e validado por testes automatizados. Dentro do produto, a IA só lê texto sujo, e o código confere o resultado.
+
+## Execução no terminal
+
+Os 15 testes automatizados passando:
+
+![Testes passando](exemplo_testes.png)
+
+Execução do robô com os 30 processos fictícios:
+
+![Execução do robô](exemplo_execucao.png)
