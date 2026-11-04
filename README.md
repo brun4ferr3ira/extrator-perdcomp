@@ -143,6 +143,6 @@ Os 15 testes automatizados passando:
 
 ![Testes passando](exemplo_testes.png)
 
-Execução do robô com os 30 processos fictícios:
+Execução do robô com os 30 processos:
 
 ![Execução do robô](exemplo_execucao.png)
